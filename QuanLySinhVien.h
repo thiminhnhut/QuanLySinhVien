@@ -15,6 +15,7 @@ class QuanLySinhVien {
         void timDiemTrungBinhLonNhat(ostream &os);
         void timDiemTrungBinhNhoNhat(ostream &os);
         void timSinhVien(ostream &os);
+        void soluongSinhVien();
 };
 
 #endif

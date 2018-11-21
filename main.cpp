@@ -15,6 +15,7 @@ int main() {
         cout << "5. Tim sinh vien co diem trung binh cao nhat" << endl;
         cout << "6. Tim sinh vien co diem trung binh thap nhat" << endl;
         cout << "7. Tim sinh vien theo MSSV" << endl;
+        cout << "8. So luong sinh vien" << endl;
 
         cin >> chon;
 
@@ -50,6 +51,10 @@ int main() {
                 break;
             case 7:
                 quanLySinhVien.timSinhVien(cout);
+                system("pause");
+                break;
+            case 8:
+                quanLySinhVien.soluongSinhVien();
                 system("pause");
                 break;
             default:

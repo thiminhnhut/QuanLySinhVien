@@ -81,3 +81,7 @@ void QuanLySinhVien::timSinhVien(ostream &os) {
     }
     cout << "Sinh vien can tim khong co trong danh sach" << endl;
 }
+
+void QuanLySinhVien::soluongSinhVien() {
+    cout << "Danh sach gom " << dsSinhVien.size() << " sinh vien" << endl;
+}
