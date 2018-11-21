@@ -76,7 +76,7 @@ void QuanLySinhVien::timSinhVien(ostream &os) {
         if (dsSinhVien[i].getID() == mssv) {
             os << "Thong tin sinh vien: " << endl;
             dsSinhVien[i].xuat(os);
-            break;
+            return;
         }
     }
     cout << "Sinh vien can tim khong co trong danh sach" << endl;
